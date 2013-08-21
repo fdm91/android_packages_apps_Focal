@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The CyanogenMod Project
+
+     This program is free software; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License
+     as published by the Free Software Foundation; either version 2
+     of the License, or (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program; if not, write to the Free Software
+     Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+     MA  02110-1301, USA.
+-->
+<resources>
+    <string name="app_name">Focal</string>
+    <string name="launch_app">Avvia Focal</string>
+    <string name="shutter_button">Pulsante di scatto</string>
+    <string name="cannot_connect_hal">Impossibile connettersi alla fotocamera</string>
+    <string name="recording">Registrazione</string>
+    <string name="double_tap_to_snapshot">Premi due volte lo schermo per scattare una foto</string>
+    <string name="video_res_1080p">Full HD (1080p)</string>
+    <string name="video_res_720p">HD (720p)</string>
+    <string name="video_res_480p">SD (480p)</string>
+    <string name="video_res_mms">MMS (288p)</string>
+    <string name="ok">OK</string>
+    <string name="no_gles20_support">Il tuo dispositivo non supporta GLES2</string>
+    <string name="no_gyroscope">Il tuo dispositivo non è dotato di giroscopio</string>
+    <string name="ps_long_press_to_stop">Tieni premuto a lungo il pulsante di scatto per\ncompletare la tua sfera.</string>
+    <string name="disabled">Disattivato</string>
+    <string name="enabled">Attivato</string>
+    <string name="no_video_player">Impossibile riprodurre il video, player non trovato</string>
+    <string name="fullscreen_shutter_info">Premi ovunque per scattare una foto</string>
+    <string name="please_wait">Per favore attendi\u2026</string>
+    <string name="retouch">RETOUCH</string>
+    <string name="open_in_gallery">GALLERIA</string>
+
+    <string name="mode_photo">Foto</string>
+    <string name="mode_video">Video</string>
+    <string name="mode_picsphere">PicSphere</string>
+    <string name="mode_panorama">Panorama</string>
+    <string name="mode_switchcam">Altra fotocamera</string>
+
+    <!-- Widgets hints for non-arrayed widgets -->
+    <string name="widget_burstmode_count_shots">Effettua %d scatti</string>
+    <string name="widget_burstmode_off">Disattiva modalità multiscatto</string>
+    <string name="widget_burstmode_infinite">Scatti infiniti</string>
+
+    <string name="widget_hdr_aebracket">Raggruppamento automatico</string>
+
+    <string name="widget_settings_choose_widgets">Choose widgets in the sidebar</string>
+    <string name="widget_settings_choose_widgets_button">Seleziona widget</string>
+    <string name="widget_settings_picture_size">Dimensione immagine</string>
+    <string name="widget_settings_exposure_ring">Show exposure ring</string>
+    <string name="widget_settings_autoenhance">Auto correzione</string>
+    <string name="widget_settings_ruleofthirds">Rule of Thirds</string>
+
+    <string name="widget_autoexposure">Modalità di misurazione dell'\esposizione</string>
+    <string name="widget_burstmode">Modalità di scatto</string>
+    <string name="widget_effect">Color effects</string>
+    <string name="widget_enhancements">Miglioramenti colore</string>
+    <string name="widget_exposure_compensation">Compensazione esposizione</string>
+    <string name="widget_flash">Modalità flash</string>
+    <string name="widget_hdr">High Dynamic Range</string>
+    <string name="widget_iso">Sensitività ISO</string>
+    <string name="widget_scenemode">Modalità di scena</string>
+    <string name="widget_settings">Impostazioni</string>
+    <string name="widget_shutter_speed">Velocità di scatto</string>
+    <string name="widget_skintone">Miglioramento tonalità della pelle</string>
+    <string name="widget_softwarehdr">High Dynamic Range</string>
+    <string name="widget_timermode">Modalità Timer</string>
+    <string name="widget_videofr">Video Framerate</string>
+    <string name="widget_videohdr">Video High Dynamic Range</string>
+    <string name="widget_whitebalance">Bilanciam. bianco</string>
+
+    <!-- Panorama mode -->
+    <!-- Filename prefix for panorama output -->
+    <string name="pano_file_name_format" translatable="false">"'PANO'_yyyyMMdd_HHmmss"</string>
+
+    <string name="pano_panorama_rendering_failed">Rendering del panorama fallito.\nProva a crearne uno più piccolo.</string>
+    <string name="pano_panorama_rendering">Rendering del panorama\u2026</string>
+
+    <!-- PicSphere status -->
+    <string name="picsphere_undo_button">ANNULLA</string>
+    <string name="picsphere_start_hint">Comincia a scattare una foto per creare una sfera</string>
+    <string name="picsphere_already_rendering">Attendi il termine del rendering della PicSphere</string>
+    <string name="picsphere_rendering_progress">Rendering\u2026 (%d %%)</string>
+    <string name="picsphere_toast_background_render">Rendering iniziato\u2026</string>
+    <string name="picsphere_notif_title">Rendering della PicSphere\u2026</string>
+    <string name="picsphere_failed">Rendering dela PicSphere fallito</string>
+    <string name="picsphere_failed_details">Assicurati che le foto si sovrappongano solo sui bordi.</string>
+    <string name="picsphere_need_two_pics">Hai bisogno di almeno due foto.</string>
+    <string name="picsphere_step_preparing">Preparazione\u2026</string>
+    <string name="picsphere_step_autopano">Giunzione delle immagini\u2026</string>
+    <string name="picsphere_step_autooptimiser">Ottimizzazione delle giunzioni\u2026</string>
+    <string name="picsphere_step_ptclean">Pulizia dei punti di giunzione\u2026</string>
+    <string name="picsphere_step_panomodify">Riempimento delle aree vuote\u2026</string>
+    <string name="picsphere_step_nona">Stitching pictures\u2026</string>
+    <string name="picsphere_step_enblend">Unione delle immagini\u2026</string>
+
+    <!-- Software HDR status -->
+    <string name="software_hdr_notif_title">Computing HDR picture\u2026</string>
+    <string name="software_hdr_failed">Rendering HDR fallito</string>
+    <string name="software_hdr_failed_details">The source pictures have been kept.</string>
+
+    <!-- Showcase text -->
+    <string name="showcase_welcome_1_title">Benvenuto!</string>
+    <string name="showcase_welcome_1_body">Le opzioni sono nella sidebar,\nscorrile semplicemente.</string>
+    <string name="showcase_welcome_2_title">Pulsante di scatto</string>
+    <string name="showcase_welcome_2_body">Premi il pulsante di scatto per acquisire una foto.\nScorri il dito su di esso per visualizzare altre modalità di scatto.</string>
+    <string name="showcase_panorama_title">Modalità Panorama</string>
+    <string name="showcase_panorama_body">Premi il pulsante di scatto per cominciare ad acquisire il panorama,\npoi muovi la fotocamera verso la parte del panorama che vuoi acquisire.\nQuando hai terminato, premi di nuovo il pulsante di scatto.</string>
+    <string name="showcase_picsphere_title">Modalità PicSphere</string>
+    <string name="showcase_picsphere_body">Allinea la prima immagine dove preferisci,\npoi premi il pulsante di scatto per salvare ciascuna foto\ndella sfera. Se vuoi puoi scattare una foto in corrispondenza\ndi ciascun puntino blu.\nTieni premuto il pulsante di scatto quando hai terminato.</string>
+</resources>

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2013 The CyanogenMod Project
+
+     This program is free software; you can redistribute it and/or
+     modify it under the terms of the GNU General Public License
+     as published by the Free Software Foundation; either version 2
+     of the License, or (at your option) any later version.
+
+     This program is distributed in the hope that it will be useful,
+     but WITHOUT ANY WARRANTY; without even the implied warranty of
+     MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+     GNU General Public License for more details.
+
+     You should have received a copy of the GNU General Public License
+     along with this program; if not, write to the Free Software
+     Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
+     MA  02110-1301, USA.
+-->
+<resources>
+    <!-- Hardware HDR settings keys. If any of these key is present, the software HDR widget
+         is hidden. If you need to force-disable software HDR, see config.xml. -->
+    <string-array name="hardware_hdr_keys" translatable="false">
+        <item>ae-bracket-hdr</item>
+    </string-array>
+
+    <!-- Voice shutter trigger commands -->
+    <string-array name="transformer_timer_voice_words">
+        <item>cid</item>
+        <item>civ</item>
+        <item>whisky</item>
+        <item>whiskey</item>
+        <item>cheese</item>
+        <item>Ok cid, scatta una foto</item>
+    </string-array>
+
+    <string-array name="widget_flash_hints">
+        <item>Auto</item>
+        <item>Disattivato</item>
+        <item>Attivato</item>
+        <item>Torcia</item>
+        <item>Riduzione occhi rossi</item>
+    </string-array>
+
+    <string-array name="widget_effects_hints">
+        <item>Disattivato</item>
+        <item>Bianco e Nero</item>
+        <item>Negativo</item>
+        <item>Solarizza</item>
+        <item>Seppia</item>
+        <item>Posterizza</item>
+        <item>Lavagna nera</item>
+        <item>Lavagna bianca</item>
+        <item>Acqua</item>
+        <item>Rilievo</item>
+        <item>Schizzo</item>
+        <item>Neon</item>
+    </string-array>
+
+    <string-array name="widget_iso_hints">
+        <item>ISO Automatico</item>
+        <item>ISO Riduzione Tremolio</item>
+        <item>100 ISO</item>
+        <item>200 ISO</item>
+        <item>400 ISO</item>
+        <item>800 ISO</item>
+        <item>1600 ISO</item>
+    </string-array>
+
+    <string-array name="widget_scenemode_hints">
+        <item>Automatico</item>
+        <item>Riduzione sfocatura movim.</item>
+        <item>Realtà aumentata</item>
+        <item>Miglior scatto</item>
+        <item>Bambini</item>
+        <item>Controluce</item>
+        <item>Ritratto controluce</item>
+        <item>Codice a barre</item>
+        <item>Spiaggia</item>
+        <item>Illuminaz. scarsa</item>
+        <item>Scuro</item>
+        <item>Cibi</item>
+        <item>Documento</item>
+        <item>Fuochi d\'artificio</item>
+        <item>Fiori</item>
+        <item>Crepuscolo</item>
+        <item>HDR</item>
+        <item>Alta sensibilità</item>
+        <item>Paesaggio</item>
+        <item>Notte</item>
+        <item>Ritratto notturno</item>
+        <item>Ritratto notturno</item>
+        <item>Festa</item>
+        <item>Animali</item>
+        <item>Portrait</item>
+        <item>Neve</item>
+        <item>Pelle morbida</item>
+        <item>Sport</item>
+        <item>Riflettore</item>
+        <item>Steady Photo</item>
+        <item>Tramonto</item>
+        <item>Maglie</item>
+        <item>Teatro</item>
+    </string-array>
+
+    <string-array name="widget_whitebalance_hints">
+        <item>Automatico</item>
+        <item>Nuvoloso</item>
+        <item>Incandescente</item>
+        <item>Fluorescente</item>
+        <item>Luce diurna</item>
+        <item>Mattinata nuvolosa</item>
+    </string-array>
+
+    <string-array name="widget_autoexposure_hints">
+        <item>Media complessiva</item>
+        <item>Media pesata al centro</item>
+        <item>Spot metering</item>
+    </string-array>
+
+</resources>
